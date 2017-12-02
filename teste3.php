@@ -6,7 +6,7 @@
  </head>
  <body>
  	<?
- require_once('lib/php/geoplugin.class.php');
+ include('lib/php/geoplugin.class.php');
  $geoplugin = new geoPlugin();
  $geoplugin->locate();
 
